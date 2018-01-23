@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.contentPage{ background-image:url(images/555_13.jpg); background-repeat:repeat-x;clear:both;}
+.listTitle{ margin-left:200px; padding-top:71px; line-height:31px;;color:#4d94bc; font-family:微软雅黑; font-size:20px; font-weight:bold;text-shadow:1px 1px 1px #e2e2e2;}
+.listTitle img{vertical-align:text-bottom;}
+.listCont{width:800px; margin:0 auto; margin-top:30px;}
+.listCont li{ display:block;border-bottom:1px dashed #b7b1b1; line-height:58px; }
+.listCont li span{ float:right;}
+.footer{clear:both; position: relative; bottom:5px;}
+

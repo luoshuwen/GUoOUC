@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{margin:0;}
+.realcontent{ width:800px; margin:0 auto; padding-top:30px;}
+.realcontent h1,h2{text-align:center;}
+.realcontent p{width:800px; line-height:30px; overflow:hidden;}

@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; }
+body{background:url(images/1.gif); font-size:12px;}
+
+.center{width:502px;height:302px;background:url(images/2.jpg); position:absolute;margin-top:-151px;px;;margin-left:-251px;; left:50%; top:50%;}
+.left{/*float:left;width:252px;height:303px;padding-top:136px;padding-left:35px;*/ display:block; position: relative; top:136px; left:35px; background:url(images/4.gif); width:172px; height:32px;}
+/*.left a{background:url(images/%E5%90%8E%E5%8F%B0%E9%A1%B5%E9%9D%A2_10.gif) no-repeat;width:175px;height:35px;display:block;}*/
+.left:hover{background:url(images/5.gif);/*url(images/%E5%90%8E%E5%8F%B0%E9%A1%B5%E9%9D%A2_10.gif) no-repeat;width:175px;height:35px;*/}
+.right{position:relative; left:310px; top:40px; width:210px; height:108px;}
+.input{ width:137px; height:14px; border:0; background:url(images/22_03.png) no-repeat; margin-top:15px; color:#8e8d8d; padding:5px;}
+.shortinput{ width:61px; height:14px; border:0; background:url(images/33_06.png) no-repeat; margin-top:15px;color:#8e8d8d;padding:5px;}
+.change{display: block; margin-top:10px; text-decoration:none; color:#333;}
+.change:hover{color:#0591d7;}
+.ok{position:relative;bottom:-30px; right:-100px; display:block; background:url(images/7.gif); width:63px; height:29px; border:0;}
+.ok:hover{background:url(images/6.gif) no-repeat;}
+.images{ width:61px; height:24px;}
+
+
+
+
+
+
+/*.user{width:130px;height:27px;margin-left:334px;padding-top:104px;}
+.password{width:130px;height:27px;margin-left:334px;margin-top:9px;}
+.codepassword{width:65px;height:27px;margin-left:334px;margin-top:8px;}
+.codemention{width:65px;height:27px;margin-left:337px;margin-top:8px;font:100}
+.codeimage{width:65px;height:27px;margin-left:335px;margin-top:8px;}
+.right{width:63px;height:29px;margin-left:340px;margin-top:10px;}
+.right a{width:175px;height:35px;display:block;background:url(%E5%90%8E%E5%8F%B0%E9%A1%B5%E9%9D%A2_16_16.gif) no-repeat;}
+.right a:hover{background:url(%E5%90%8E%E5%8F%B0%E9%A1%B5%E9%9D%A2_16.gif) no-repeat;width:175px;height:35px;}*/
+

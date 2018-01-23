@@ -1,0 +1,65 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ background-color:#f2f2f2; font-size:12px; margin:0;}
+ul{ height:58px;list-style-type:none; margin:0; padding:0;}
+a{ text-decoration:none; color:#60666a;}
+.nav{height:94px; background-image:url (images/%E7%A0%94%E7%A9%B6%E7%94%9F%E4%BC%9A2_01.jpg);}
+.logo{ margin:0 auto; width:1168px;}
+.nav img{float:left;}
+.title{ float:left; margin-left:10px;}
+.pic{ background-image:url(images/2312_03.png); background-repeat:repeat-x; height:36px; margin-left:38px;}
+.title ul{ width:710px; background-image:url(images/88.png); padding-left:40px;font:14px "微软雅黑"; font-weight:bold; text-shadow:1px 1px 1px #999;}
+.title ul li{float:left;}
+.title ul img{float:left;}
+.title ul li a{float:left; display:block; line-height:58px; width:70px; text-align:center; color:#eef4f6;}
+.title ul li a:hover{background:url(images/a_05.png) no-repeat bottom; color:#848484;text-shadow: none; }
+.title ul li ul{ display:none; height:48px; width:525px; z-index:9;}
+.title ul li:hover ul{position:absolute;top:95px;left:550px; display:block; background-image:url(images/555_03.png); width:525px;}
+.title ul li:hover ul li{display:block;}
+.title ul li:hover ul li a{display:block; line-height:43px; width:100px;color:#77797a;font-weight:normal; text-shadow:none;}
+.title ul li:hover ul li a:hover{color:#903; background:none; font-weight:bold;}
+.banner{background-image:url(images/222_04.png); height:381px; clear:left; text-align:center;}
+#banner{width:701px; margin:0 auto;}
+.picture{margin-top:16px; margin-left:0;}
+.circle{width:656px; margin:-5px auto 0; float:left; overflow:hidden;}
+.turn{ padding-top:147px; float:left;display:block;}
+.content{ margin:0 auto; width:912px;}
+.left{background-image:url(images/22222_24.png); float:left; width:336px; height:362px;}
+.left ul{width:247px; padding: 10px;padding-left:40px;}
+.left ul li{ margin-top:15px;}
+.news li{ background:url(images/6_14.gif) no-repeat; padding-left:20px;width:227px;  }
+.left h1{font-size:18px; font-family:微软雅黑; color:#6c7072; margin:25px 0 0 0; padding:0; text-align:center;}
+.short{margin:0;}
+.usually{float:left;}
+.usually h1{ font-size:18px; font-family:微软雅黑; color:#97b4c3; font-weight:normal; display:block; padding-top:25px;}
+.usually p{line-height:33px; }
+.usually img{margin-top:10px;}
+.usually a{width:65px; display:inline-block; text-align:center; color:#a5c3d4; font-weight:600;}
+#long{ width:100px;}
+.footer{text-align:center; color:#a8b2b6; clear:both; margin-top:30px;}
+
+
+
+
+ul,li {list-style:none; margin:0px; padding:0px;}
+img {border:0;}
+/* 仿QQ商城点击左右滚动jquery焦点图特效插件 */
+.focus {
+	width: 800px;
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.focus ul {height:380px; position:absolute;}
+.focus ul li {float:left; width:800px; height:280px; overflow:hidden; position:relative; background:#f2f2f2 url(img/3_04.jpg); overflow:hidden;}
+.focus ul li img{ height:280px;}
+.focus ul li div {position:absolute; overflow:hidden;}
+.focus .btnBg {position:absolute; width:800px; height:20px; left:0; bottom:0; background:#000; display:none;}
+.focus .btn {position:absolute; width:780px; height:23px; padding:0px 10px 0px 10px; right:0; bottom:6px; text-align:right;}
+.focus .btn span {display:inline-block; _display:inline; _zoom:1; width:25px; height:24px; line-height:24px; text-align:center; _font-size:0; margin-left:5px; cursor:pointer; background:#fff;}
+.focus .btn span.on {background:#fff;}
+.focus .preNext {width:45px; height:100px; position:absolute; top:130px; background:url(img/sprite.png) no-repeat 0 0; cursor:pointer;}
+.focus .pre {left:0;}
+.focus .next {right:0; background-position:right top;}

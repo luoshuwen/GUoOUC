@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Common.master.cs" Inherits="manage_Common" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国海洋大学研究会</title>
+    <link href="css/CSS.css" rel="stylesheet" />
+    <link href="css/list.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+<nav>
+    <div class="nav">
+        <div class="logo"><img src="css/images/xm2.png" />
+            <div class="title">
+                <div class="pic"></div>
+                <ul>
+                    <li><a href="Home_Page.aspx">首页</a><img src="css/images/333_06.png" /></li>
+                    <li><a href="">研会介绍</a><img src="css/images/333_06.png" />
+                        <ul>
+                            <li><a href="content.aspx?id=16">研会生会简介</a><img src="css/images/444_03.png" /></li>
+                            <li><a href="content.aspx?id=37">规章制度</a><img src="css/images/444_03.png" /></li>
+                            <li><a href="content.aspx?id=18">部门简介</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="list.aspx?id=新闻聚焦">新闻聚焦</a><img src="css/images/333_06.png" /></li>
+                    <li><a href="list.aspx?id=权益之声">权益之声</a><img src="css/images/333_06.png" /></li>
+                    <li><a href="list.aspx?id=硕博天空">硕博天空</a><img src="css/images/333_06.png" /></li>
+                     <li><a href="content.aspx?id=19">招生信息</a><img src="css/images/333_06.png" /></li>
+                    <li><a href="list.aspx">招聘信息</a><img src="css/images/333_06.png" /></li>
+                    <li><a href="download.aspx?id=下载">相关下载</a><img src="css/images/333_06.png" /></li>
+                    <li><a href="content.aspx?id=15">联系我们</a>  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+</div>
+    <div>
+        <asp:ContentPlaceHolder id="body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">Copyright@ 2012 Ocean University Of China. All rights reserved.</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,220 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(images/02_01.jpg);
+	margin: 0;
+	font-size: 12px;
+}
+.clear {
+	clear: both;
+}
+ul, li, span, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color:Black;
+}
+#header {
+	background: url(images/03_03.png);
+	height: 109px;
+}
+#content {
+	width: 980px;
+	margin: 0 auto;
+}
+.banner {
+	height: 89px;
+	padding: 10px;
+	text-align: center;
+}
+.contentleft {
+	background: url(images/08_15.png) repeat-y;
+	width: 280px;/* position:relative; left:0; z-index:1;*/
+	margin-top: 20px;
+	float: left;
+	color: #f0f0f0;
+}
+h6 {
+	float: left;
+}
+.title {
+	background: url(images/10_16.png) no-repeat;
+	height: 66px;
+	width: 280px;
+	margin-top: 25px;	
+	font: 16px "微软雅黑";
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #999;
+}
+.top {
+	margin-top: 0;
+}
+.title:hover {
+	background: url(images/20_17.png);
+}
+.title span {
+	text-align: right;
+	display: block;
+	line-height: 66px;
+	font-size: 14px;
+}
+.title img {
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 30px;
+	vertical-align: middle;/*注意这里有问题！！！ ！*/
+}
+.contentleft ul {
+	width: 230px;
+	list-style-type: none;
+	margin-left: 22px;
+}
+.contentleft ul li {
+	margin-top: 25px;
+}
+.contentleft ul li a{ display:block; width:181px; height:28px;background: url(images/12_22.png);line-height: 28px;	padding-left: 50px; color:#f0f0f0;}
+
+.contentleft ul li a:hover {
+	background: url(images/11_22.png);
+}
+.contentright {
+	background: url(images/15_18.png) /*repeat-y*/;
+	width: 700px;
+	float: left;
+	margin-top: 20px;
+}
+.realtitle {
+	display: inline;
+	line-height: 36px;
+	color: #3b8fba;
+	font-weight: bold;
+	font-family: 微软雅黑;
+}
+.realtitle select {
+	margin-right: 30px;
+	width: 70px;
+	height: 18px;
+	line-height: 18px;
+}
+.realtitle input {
+	width: 122px;
+	height: 18px;
+	line-height: 18px;
+}
+.aaaaa {
+	vertical-align: text-bottom;
+	padding-left: 36px;
+	margin-bottom: -10px;
+}
+.bbbb{
+	position: fixed;
+	top: 20px;
+	right: 0px;
+}
+.logout {
+	display: block;
+	width: 64px;
+	height: 63px;
+	background: url(images/05_05.png);
+}
+.logout:hover {
+	background: url(images/21_06.png);
+}
+.realcontent {
+	padding: 0 50px;
+	width: 540px;
+	text-align: center;
+	
+}
+.ckk {
+	padding: 0 50px;
+	margin-left:10px;
+	text-align: center;
+	
+}
+.input2 {
+	width: 590px;
+	height: 310px;
+}
+.realcontent span {
+	display: inline-block;
+	width: 100px;
+	font-size: 12px;
+	color: #333;
+	margin-top: 15px;
+	color: #3b8fba;
+	font-weight: bold;
+	font-family: 微软雅黑;
+}
+.input {
+	border: 1px solid #cccccc;
+	width: 150px;
+	height: 20px;
+}
+.output {
+	/*margin-right: -54px;*/
+	float: right;
+	border: 1px solid #cccccc;
+	background: url(images/26_38.jpg);
+	width: 86px;
+	height: 36px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.output:hover {
+	background: url(images/25_38.jpg);
+	border: 1px solid #62b1d9;
+}
+.give {
+	background: url(images/29_38.jpg);
+}
+.give:hover {
+	background: url(images/30_38.jpg);
+}
+.table {
+	padding: 20px 50px 0px;
+	width: 600px;
+}
+.table li {
+	float: left;
+	display: block;
+	width:75px;
+	text-align: center;
+	height: 50px;
+	padding: 0 5px;
+}
+.table li input {
+	background: url(images/31_07.jpg);
+	border: 0;
+	width: 42px;
+	height: 18px;
+	margin-top: -3px;
+}
+.table li input:hover {
+	background: url(images/32_03.jpg);
+}
+.border li {
+	border-top: 1px dashed #cccccc;
+	padding-top: 10px;
+}
+.realtitle input.fund {
+	background: url(images/31_07.jpg);
+	border: 0;
+	width: 42px;
+	height: 18px;
+}
+.realtitle input.fund:hover {
+	background: url(images/32_03.jpg);
+}
+.realtitle input.konw {
+	background: url(images/34_03.jpg);
+	margin-left: 200px;
+	border: 0;
+	width: 150px;
+	height: 20px;
+}

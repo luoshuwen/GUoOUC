@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="later_common.master.cs" Inherits="manage_after_later_common" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>中国海洋大学研究生网站后台</title>
+    <link href="back.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="header">
+    <div class="banner"> <img src="images/xm2.png" /> </div>
+        
+    <a class=" bbbb logout" href="logout.aspx"></a> </div>
+<div id="content">
+    <div class="contentleft">
+        <h6><img src="images/07_12.jpg" /></h6>
+        <div class="clear"></div>
+        <div class="title top"> <span>用户管理 <img src="images/11_18.png" /></span> </div>
+        <ul>
+            <li><a href="add_admin.aspx">添加管理员</a></li>
+            <li><a href="repair_password.aspx">修改密码</a></li>
+            <li><a href="admin_list.aspx">管理员列表</a></li>
+        </ul>
+        <div class="title"> <span>信息管理 <img src="images/11_18.png" /></span> </div>
+        <ul>
+            <li><a href="article_manage.aspx">文章管理</a></li>
+            <li><a href="download.aspx">相关文章下载</a></li>
+            <li><a href="link_manage.aspx">友情链接管理</a></li>
+        </ul>
+        <h6><img src="images/09_19.png" /></h6>
+    </div>
+     <div class="contentright">
+       
+      <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+   </div>
+   </div>
+</body>
+</html>
